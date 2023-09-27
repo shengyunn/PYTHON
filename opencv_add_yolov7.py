@@ -9,7 +9,7 @@ with open("C:\\Users\\ryan0\Desktop\\yolov7_Custom\\yolov7-custom\\data\\custom_
     classes = f.read().strip().split('\n')
 
 # 讀取圖片
-image = cv2.imread('02.jpg')  # 替換成你的圖片路徑
+image = cv2.imread("C:\\Users\\ryan0\\OneDrive\\For GitHub\\PYTHON\\images\\02.jpg")  # 替換成你的圖片路徑
 height, width, channels = image.shape
 
 # 將圖片轉換為 blob 格式
